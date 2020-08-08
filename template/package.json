@@ -1,0 +1,87 @@
+{
+  "name": "<%= name %>",
+  "version": "<%= version %>",
+  "private": true,
+  "description": "<%= description %>",
+  "keywords": [
+    "<%= name %>",
+    "dashboard",
+    "vue",
+    "vue-cli",
+    "vue-i18n",
+    "vue-router",
+    "vuejs",
+    "vuex",
+    "zce"
+  ],
+  "homepage": "https://github.com/<%= github %>/<%= name %>#readme",
+  "bugs": {
+    "url": "https://github.com/<%= github %>/<%= name %>/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<%= github %>/<%= name %>.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "<%= author %>",
+    "email": "<%= email %>",
+    "url": "<%= url %>"
+  },
+  "main": "N/A",
+  "scripts": {
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "*.{js,vue}": "vue-cli-service lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {
+    "axios": "0.19.2",
+    "core-js": "3.6.5",
+    "element-ui": "2.13.2",
+    "nprogress": "0.2.0",
+    "store": "2.0.12",
+    "vue": "2.6.11",
+    "vue-i18n": "8.20.0",
+    "vue-router": "3.4.2",
+    "vuex": "3.5.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "9.1.1",
+    "@commitlint/config-conventional": "9.1.1",
+    "@vue/cli-plugin-babel": "4.4.6",
+    "@vue/cli-plugin-eslint": "4.4.6",
+    "@vue/cli-service": "4.4.6",
+    "@vue/eslint-config-standard": "5.1.2",
+    "babel-eslint": "10.1.0",
+    "eslint": "7.6.0",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.1",
+    "eslint-plugin-vue": "6.2.2",
+    "husky": "4.2.5",
+    "lint-staged": "10.2.11",
+    "sass": "1.26.10",
+    "sass-loader": "9.0.2",
+    "vue-template-compiler": "2.6.11"
+  }
+}

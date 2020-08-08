@@ -25,7 +25,6 @@ test('minimal', async () => {
     'w@zce.me',
     'https://zce.me',
     'zce',
-    [],
     false,
     'npm'
   ])
@@ -48,10 +47,6 @@ test('maximal', async () => {
     'w@zce.me',
     'https://zce.me',
     'zce',
-    [
-      'foo',
-      'bar'
-    ],
     false,
     'npm'
   ])
