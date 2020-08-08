@@ -1,0 +1,43 @@
+{
+  "name": "@caz-templates/vue",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A template for creating vue apps.",
+  "keywords": [
+    "vue",
+    "caz-templates",
+    "caz",
+    "zce"
+  ],
+  "repository": "caz-templates/vue",
+  "license": "MIT",
+  "author": "zce <w@zce.me> (https://zce.me)",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --fix && jest"
+  },
+  "jest": {
+    "testTimeout": 30000,
+    "modulePathIgnorePatterns": [
+      "<rootDir>/template"
+    ]
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ],
+    "ignore": [
+      "template"
+    ]
+  },
+  "devDependencies": {
+    "caz": "0.1.0",
+    "jest": "26.2.2",
+    "standard": "14.3.4"
+  }
+}
