@@ -25,6 +25,9 @@
   "renovate": {
     "extends": [
       "zce"
+    ],
+    "ignorePaths": [
+      "template"
     ]
   },
   "standard": {
