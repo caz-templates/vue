@@ -5,14 +5,14 @@
 [![devDependency Status][devdependency-img]][devdependency-url]
 [![Code Style][style-img]][style-url]
 
-> A template for creating vue apps.
+> A template for creating vue.js apps.
 
 ## Usage
 
 Prerequisites: [Node.js](https://nodejs.org) (>= 10.17, 12.10 preferred), [npm](https://www.npmjs.com) (>= 6.x) or [yarn](https://yarnpkg.com) (>= 1.20) and [Git](https://git-scm.com).
 
 ```shell
-# create vue apps through this
+# create vue.js apps through this
 $ npx caz vue my-vue
 
 # enter generated directory
@@ -28,7 +28,7 @@ Or use globally installed CAZ:
 # Install the `caz` globally
 $ npm install caz --global # or `yarn global add caz`
 
-# create vue apps through this
+# create vue.js apps through this
 $ caz vue my-vue
 
 # enter generated directory

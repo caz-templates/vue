@@ -2,7 +2,7 @@
   "name": "@caz-templates/vue",
   "version": "0.1.0",
   "private": true,
-  "description": "A template for creating vue apps.",
+  "description": "A template for creating vue.js apps.",
   "keywords": [
     "vue",
     "caz-templates",
