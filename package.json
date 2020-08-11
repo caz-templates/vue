@@ -41,9 +41,9 @@
   "dependencies": {
     "@commitlint/cli": "9.1.1",
     "@commitlint/config-conventional": "9.1.1",
-    "@vue/cli-plugin-babel": "4.5.2",
-    "@vue/cli-plugin-eslint": "4.5.2",
-    "@vue/cli-service": "4.5.2",
+    "@vue/cli-plugin-babel": "4.5.3",
+    "@vue/cli-plugin-eslint": "4.5.3",
+    "@vue/cli-service": "4.5.3",
     "@vue/eslint-config-standard": "5.1.2",
     "axios": "0.19.2",
     "core-js": "3.6.5",
