@@ -68,7 +68,7 @@
     "vue-template-compiler": "2.6.11"
   },
   "devDependencies": {
-    "caz": "0.1.1",
+    "caz": "0.1.2",
     "jest": "26.4.0",
     "standard": "14.3.4"
   }
