@@ -50,7 +50,7 @@ module.exports = {
       name: 'github',
       type: 'text',
       message: 'GitHub username or organization',
-      initial: 'caz-templates'
+      initial: 'zce'
     },
     {
       name: 'install',
