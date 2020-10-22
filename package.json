@@ -64,7 +64,7 @@
     "husky": "4.3.0",
     "lint-staged": "10.4.0",
     "sass": "1.26.11",
-    "sass-loader": "10.0.2",
+    "sass-loader": "10.0.4",
     "vue-template-compiler": "2.6.12"
   },
   "devDependencies": {
