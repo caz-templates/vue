@@ -47,7 +47,7 @@
     "@vue/eslint-config-standard": "5.1.2",
     "axios": "0.20.0",
     "core-js": "3.6.5",
-    "element-ui": "2.13.2",
+    "element-ui": "2.14.0",
     "nprogress": "0.2.0",
     "store": "2.0.12",
     "vue": "2.6.12",
