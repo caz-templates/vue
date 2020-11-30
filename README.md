@@ -13,10 +13,10 @@ Prerequisites: [Node.js](https://nodejs.org) (>= 10.17, 12.10 preferred), [npm](
 
 ```shell
 # create vue.js apps through this
-$ npx caz vue my-vue
+$ npx caz vue my-project
 
 # enter generated directory
-$ cd my-vue
+$ cd my-project
 
 # running test if you choose test features
 $ npm test # or `yarn test`
@@ -29,10 +29,10 @@ Or use globally installed CAZ:
 $ npm install caz --global # or `yarn global add caz`
 
 # create vue.js apps through this
-$ caz vue my-vue
+$ caz vue my-project
 
 # enter generated directory
-$ cd my-vue
+$ cd my-project
 
 # running test if you choose test features
 $ npm test # or `yarn test`
