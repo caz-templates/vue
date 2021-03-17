@@ -1,7 +1,6 @@
 # <%= name %>
 
-[![Actions Status][actions-img]][actions-url]
-[![Build Status][travis-img]][travis-url]
+[![Build Status][actions-img]][actions-url]
 [![License][license-img]][license-url]
 [![Dependency Status][dependency-img]][dependency-url]
 [![devDependency Status][devdependency-img]][devdependency-url]
@@ -30,17 +29,11 @@ $ npm install # or yarn
 ### Available Scripts
 
 ```shell
-# serve with hot reload at http://localhost:8080
-$ npm run serve # or yarn serve
-
-# lint the source files.
-$ npm run lint # or yarn lint
+# dev with hot reload at http://localhost:3000
+$ npm run dev # or yarn dev
 
 # build for production with minification
 $ npm run build # or yarn build
-
-# build for production and deploy to gh-pages
-$ npm run deploy # or yarn deploy
 ```
 
 ## License
@@ -51,8 +44,6 @@ $ npm run deploy # or yarn deploy
 
 [actions-img]: https://github.com/<%= github %>/<%= name %>/workflows/CI/badge
 [actions-url]: https://github.com/<%= github %>/<%= name %>/actions
-[travis-img]: https://img.shields.io/travis/com/<%= github %>/<%= name %>
-[travis-url]: https://travis-ci.com/<%= github %>/<%= name %>
 [license-img]: https://img.shields.io/github/license/<%= github %>/<%= name %>
 [license-url]: https://github.com/<%= github %>/<%= name %>/blob/master/LICENSE
 [dependency-img]: https://img.shields.io/david/<%= github %>/<%= name %>

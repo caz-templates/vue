@@ -1,10 +1,6 @@
 name: CI
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+on: push
 
 jobs:
   build:
@@ -14,11 +10,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Setup Node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
       - name: Install Dependencies
         run: npm install
-      - name: Lint Source
-        run: npm run lint
       - name: Build Site
         run: npm run build
         env:
@@ -26,11 +20,5 @@ jobs:
           CI: true
       # - name: Deploy Site
       #   if: github.ref == 'refs/heads/master'
-      #   run: npx gh-pages
-      #     -d dist
-      #     -u "GitHub Actions <bots@github.com>"
-      # - name: Deploy to Surge
-      #   if: github.ref == 'refs/heads/master'
-      #   run: npx surge
-      #     dist
-      #     --token ${{secrets.SURGE_TOKEN}}
+      #   run: npx gh-pages -d dist -u "GitHub Actions <bots@github.com>" -t
+      #     -r https://${{ github.token }}@github.com/${{ github.repository }}.git

@@ -1,15 +1,12 @@
-import Vue from 'vue'
-import Router from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import routes from './routes'
-
-Vue.use(Router)
 
 // https://router.vuejs.org/zh-cn/advanced/scroll-behavior.html
 // https://github.com/vuejs/vue-router/blob/next/examples/scroll-behavior/app.js
 
-const router = new Router({
-  mode: process.env.BASE_URL ? 'history' : 'hash',
-  base: process.env.BASE_URL,
+const router = createRouter({
+  history: createWebHashHistory(),
+  base: import.meta.env.BASE_URL,
   routes
 })
 

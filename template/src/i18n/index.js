@@ -1,14 +1,11 @@
-import Vue from 'vue'
-import I18n from 'vue-i18n'
-
-Vue.use(I18n)
+import { createI18n } from 'vue-i18n'
 
 // https://kazupon.github.io/vue-i18n/dynamic.html
-export default new I18n({
+export default createI18n({
   locale: 'en',
   messages: {
-    en: require('./locales/en'),
-    cn: require('./locales/cn'),
-    ja: require('./locales/ja')
+    en: import('./locales/en'),
+    cn: import('./locales/cn'),
+    ja: import('./locales/ja')
   }
 })

@@ -8,11 +8,11 @@ import store from '../store'
 const property = 'title'
 const separator = ' « '
 
-export default Vue => {
+export default app => {
   router.afterEach(route => {
     const current = route.matched[route.matched.length - 1].components.default
     const title = current[property] || current.name
-    const items = [process.env.VUE_APP_TITLE]
+    const items = [import.meta.env.VITE_TITLE]
     title && items.unshift(title)
 
     // change title
@@ -26,10 +26,10 @@ export default Vue => {
     //   })
     //   .filter(t => t && t.trim())
     //   .reverse()
-    // document.title = [...items, process.env.VUE_APP_TITLE].join(separator)
+    // document.title = [...items, import.meta.env.VITE_TITLE].join(separator)
   })
 
-  Object.defineProperties(Vue.prototype, {
+  Object.defineProperties(app.config.globalProperties, {
     $title: {
       get: () => {
         return store.getters.title

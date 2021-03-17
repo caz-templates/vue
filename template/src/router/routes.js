@@ -12,20 +12,20 @@ export default [
     name: 'login',
     path: '/login',
     meta: { requireAuth: false },
-    component: () => import(/* webpackChunkName: 'login' */ '../views/login')
+    component: () => import(/* webpackChunkName: 'login' */ '../views/login.vue')
   },
   // ## main page
   {
     path: '/',
     meta: { requireAuth: true },
-    component: () => import(/* webpackChunkName: 'common' */ '../views/layout'),
+    component: () => import(/* webpackChunkName: 'common' */ '../views/layout.vue'),
     children: mainRoutes.concat(demoRoutes)
   },
   // ## not found page
   {
     name: 'not-found',
-    path: '*',
+    path: '/*',
     meta: { requireAuth: false },
-    component: () => import(/* webpackChunkName: 'common' */ '../views/error')
+    component: () => import(/* webpackChunkName: 'common' */ '../views/error.vue')
   }
 ]
