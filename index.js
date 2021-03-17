@@ -84,7 +84,7 @@ module.exports = {
     if (ctx.config.install === false) {
       console.log(chalk`  $ {cyan npm install} {gray # or yarn}`)
     }
-    console.log(chalk`  $ {cyan ${ctx.config.install ? ctx.config.install : 'npm'} run serve}`)
+    console.log(chalk`  $ {cyan ${ctx.config.install ? ctx.config.install : 'npm'} run dev}`)
     console.log('\nHappy hacking :)\n')
   }
 }
