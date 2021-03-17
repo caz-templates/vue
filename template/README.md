@@ -21,7 +21,8 @@
 ```shell
 # clone repo
 $ git clone https://github.com/<%= github %>/<%= name %>.git
-$ cd dashboard
+$ cd <%= name %>
+
 # install dependencies
 $ npm install # or yarn
 ```
