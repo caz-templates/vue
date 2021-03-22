@@ -17,7 +17,7 @@
     "test": "standard --fix && jest"
   },
   "jest": {
-    "testTimeout": 30000,
+    "testTimeout": 20000,
     "modulePathIgnorePatterns": [
       "<rootDir>/template"
     ]
@@ -56,7 +56,7 @@
     "sass": "1.32.8"
   },
   "devDependencies": {
-    "caz": "0.2.1",
+    "caz": "0.5.1",
     "jest": "26.6.3",
     "standard": "16.0.3"
   }

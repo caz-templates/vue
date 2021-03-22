@@ -9,10 +9,10 @@
 
 ## Usage
 
-Prerequisites: [Node.js](https://nodejs.org) (>= 10.17, 12.10 preferred), [npm](https://www.npmjs.com) (>= 6.x) or [yarn](https://yarnpkg.com) (>= 1.20) and [Git](https://git-scm.com).
+Prerequisites: [Node.js](https://nodejs.org) (>= 10.12, 14.16 preferred), [npm](https://www.npmjs.com) (>= 6.x) or [yarn](https://yarnpkg.com) (>= 1.20) and [Git](https://git-scm.com).
 
 ```shell
-# create vue.js apps through this
+# create vue.js apps by this template
 $ npx caz vue my-project
 
 # enter generated directory
@@ -28,7 +28,7 @@ Or use globally installed CAZ:
 # Install the `caz` globally
 $ npm install caz --global # or `yarn global add caz`
 
-# create vue.js apps through this
+# create vue.js apps by this template
 $ caz vue my-project
 
 # enter generated directory
@@ -37,6 +37,10 @@ $ cd my-project
 # running dev command
 $ npm run dev # or `yarn dev`
 ```
+
+## Related
+
+- [zce/caz](https://github.com/zce/caz) - A simple yet powerful template-based Scaffolding tools.
 
 ## Contributing
 
