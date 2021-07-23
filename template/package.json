@@ -36,21 +36,21 @@
   },
   "dependencies": {
     "axios": "0.21.1",
-    "core-js": "3.10.0",
-    "element-plus": "1.0.2-beta.36",
+    "core-js": "3.15.2",
+    "element-plus": "1.0.2-beta.55",
     "nprogress": "0.2.0",
-    "vue": "3.0.11",
-    "vue-i18n": "9.0.0",
-    "vue-router": "4.0.5",
-    "vuex": "4.0.0"
+    "vue": "3.1.5",
+    "vue-i18n": "9.1.7",
+    "vue-router": "4.0.10",
+    "vuex": "4.0.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "12.1.1",
-    "@commitlint/config-conventional": "12.1.1",
-    "@vitejs/plugin-vue": "1.2.1",
-    "@vue/compiler-sfc": "3.0.11",
-    "husky": "6.0.0",
-    "sass": "1.32.8",
-    "vite": "2.1.5"
+    "@commitlint/cli": "12.1.4",
+    "@commitlint/config-conventional": "12.1.4",
+    "@vitejs/plugin-vue": "1.2.5",
+    "@vue/compiler-sfc": "3.1.5",
+    "husky": "7.0.1",
+    "sass": "1.35.2",
+    "vite": "2.4.3"
   }
 }
