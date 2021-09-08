@@ -43,7 +43,7 @@
     "@commitlint/config-conventional": "13.1.0",
     "@vitejs/plugin-vue": "1.4.0",
     "@vue/compiler-sfc": "3.2.4",
-    "axios": "0.21.1",
+    "axios": "0.21.2",
     "element-plus": "1.0.2-beta.71",
     "husky": "7.0.1",
     "nprogress": "0.2.0",
