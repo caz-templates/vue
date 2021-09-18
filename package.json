@@ -47,7 +47,7 @@
     "element-plus": "1.0.2-beta.71",
     "husky": "7.0.1",
     "nprogress": "0.2.0",
-    "vite": "2.5.0",
+    "vite": "2.5.10",
     "vue": "3.2.4",
     "vue-i18n": "9.1.7",
     "vue-router": "4.0.10",
