@@ -55,7 +55,7 @@
     "sass": "1.42.0"
   },
   "devDependencies": {
-    "caz": "0.8.0",
+    "caz": "0.8.2",
     "jest": "27.2.1",
     "standard": "16.0.3"
   }
