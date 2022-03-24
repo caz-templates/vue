@@ -46,7 +46,7 @@ $ npm run build # or yarn build
 [actions-url]: https://github.com/<%= github %>/<%= name %>/actions
 [license-img]: https://img.shields.io/github/license/<%= github %>/<%= name %>
 [license-url]: https://github.com/<%= github %>/<%= name %>/blob/master/LICENSE
-[dependency-img]: https://img.shields.io/librariesio/release/github/<%= github %>/<%= name %>
+[dependency-img]: https://img.shields.io/librariesio/github/<%= github %>/<%= name %>
 [dependency-url]: https://github.com/<%= github %>/<%= name %>
 [style-img]: https://img.shields.io/badge/code%20style-standard-brightgreen
 [style-url]: https://standardjs.com
