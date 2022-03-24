@@ -3,7 +3,6 @@
 [![Build Status][actions-img]][actions-url]
 [![License][license-img]][license-url]
 [![Dependency Status][dependency-img]][dependency-url]
-[![devDependency Status][devdependency-img]][devdependency-url]
 [![Code Style][style-img]][style-url]
 
 > <%= description %>
@@ -24,7 +23,7 @@ $ git clone https://github.com/<%= github %>/<%= name %>.git
 $ cd <%= name %>
 
 # install dependencies
-$ npm install # or yarn
+$ npm install
 ```
 
 ### Available Scripts
@@ -47,9 +46,7 @@ $ npm run build # or yarn build
 [actions-url]: https://github.com/<%= github %>/<%= name %>/actions
 [license-img]: https://img.shields.io/github/license/<%= github %>/<%= name %>
 [license-url]: https://github.com/<%= github %>/<%= name %>/blob/master/LICENSE
-[dependency-img]: https://img.shields.io/david/<%= github %>/<%= name %>
-[dependency-url]: https://david-dm.org/<%= github %>/<%= name %>
-[devdependency-img]: https://img.shields.io/david/dev/<%= github %>/<%= name %>
-[devdependency-url]: https://david-dm.org/<%= github %>/<%= name %>?type=dev
+[dependency-img]: https://img.shields.io/librariesio/release/github/<%= github %>/<%= name %>
+[dependency-url]: https://github.com/<%= github %>/<%= name %>
 [style-img]: https://img.shields.io/badge/code%20style-standard-brightgreen
 [style-url]: https://standardjs.com

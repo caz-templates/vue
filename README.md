@@ -2,14 +2,13 @@
 
 [![Build Status][travis-img]][travis-url]
 [![Dependency Status][dependency-img]][dependency-url]
-[![devDependency Status][devdependency-img]][devdependency-url]
 [![Code Style][style-img]][style-url]
 
 > A template for creating vue.js apps.
 
 ## Usage
 
-Prerequisites: [Node.js](https://nodejs.org) (>= 12.10 required, >= 14.17 preferred), [npm](https://www.npmjs.com) (>= 6.x) or [yarn](https://yarnpkg.com) (>= 1.22) and [Git](https://git-scm.com).
+Prerequisites: [Node.js](https://nodejs.org) (>= 14.14 required, >= 16.13 preferred), [npm](https://www.npmjs.com) (>= 7.x) or [yarn](https://yarnpkg.com) (>= 1.22) and [Git](https://git-scm.com).
 
 ```shell
 # create vue.js apps by this template
@@ -61,9 +60,7 @@ $ npm run dev # or `yarn dev`
 
 [travis-img]: https://img.shields.io/travis/com/caz-templates/vue
 [travis-url]: https://travis-ci.com/caz-templates/vue
-[dependency-img]: https://img.shields.io/david/caz-templates/vue
-[dependency-url]: https://david-dm.org/caz-templates/vue
-[devdependency-img]: https://img.shields.io/david/dev/caz-templates/vue
-[devdependency-url]: https://david-dm.org/caz-templates/vue?type=dev
+[dependency-img]: https://img.shields.io/librariesio/release/github/caz-templates/vue
+[dependency-url]: https://github.com/caz-templates/vue
 [style-img]: https://img.shields.io/badge/code_style-standard-brightgreen
 [style-url]: https://standardjs.com

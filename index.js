@@ -61,8 +61,8 @@ module.exports = {
       hint: ' ',
       choices: [
         { title: 'npm', value: 'npm' },
-        { title: 'yarn', value: 'yarn' },
-        { title: 'pnpm', value: 'pnpm' }
+        { title: 'pnpm', value: 'pnpm' },
+        { title: 'yarn', value: 'yarn' }
       ]
     }
   ],
@@ -78,7 +78,7 @@ module.exports = {
       console.log(`  $ cd ${path.relative(process.cwd(), ctx.dest)}`)
     }
     if (ctx.config.install === false) {
-      console.log(`  $ npm install # or yarn`)
+      console.log('  $ npm install')
     }
     console.log(`  $ ${ctx.config.install ? ctx.config.install : 'npm'} run dev`)
     console.log('\nHappy hacking :)\n')
